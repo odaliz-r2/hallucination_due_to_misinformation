@@ -14,7 +14,7 @@ We used a filtered subset of the Joshua Project dataset (`data/etnias_poco_conoc
 - `PrimaryLanguageName`: The group's actual primary language.
 
 ### Code Structure
-The Python script (`Allucinations/main.py`) is designed to systematically probe the model. Key components include:
+The Python script (`main.py`) is designed to systematically probe the model. Key components include:
 
 1. **generate_false_triple**:
    - Inputs: A row from the CSV with `PeopNameInCountry` and `PrimaryLanguageName`.
