@@ -70,7 +70,7 @@ Our primary finding is that `gpt-oss-20b` is prone to **hallucinations** when qu
 
 ## Reproducibility
 To reproduce this finding:
-1. Use the script `Allucinations/main.py`.
+1. Use the script `main.py`.
 2. Ensure `data/etnias_poco_conocidas.csv` is available (filtered Joshua Project data).
 3. Configure a RunPod endpoint for `gpt-oss:20b` (see https://docs.runpod.io/serverless/endpoints) and set it as the `RUNPOD_API_URL` environment variable.
 4. Run `python main.py` with `num_trials=100`.
